@@ -1,0 +1,53 @@
+#loginDiv{
+    height:90%;
+    background-color:#04142b ;
+    margin:40px;
+    border-radius: 20px;
+}
+#column{
+    float: left;
+    width: 60%;
+    height: 100%;
+    background-color:#04142b;
+    border-radius: 0px 10px 10px 0px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+#columnImage{
+    float: left;
+    width: 40%;
+    height: 100%;
+    background-image:url("backgroundLogin.jpg");
+    background-size:cover;
+    border-radius: 10px 0px 0px 10px;
+}
+#heading{
+    font-size: 60px;
+    color:#15a769;
+    font-weight: bolder;
+}
+.text{
+    color:#15a769;
+    font-size: 40px;
+}
+.inputs{
+    height: 40px;
+    font-size: 25px;
+    color:#15a769 ;
+}
+::placeholder {
+    color: #15a769;
+}
+#login{
+    background-color:#15a769 ;
+    color:#04142b ;
+    font-size: 30px;
+    border-style: none;
+    border-radius: 5px;
+}
+body{
+    background-color: #dee2e7;
+}
+#image{
+    height: 150px;
+}
