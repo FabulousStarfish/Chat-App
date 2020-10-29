@@ -1,0 +1,47 @@
+#logout{
+    background-color: #15a769;
+    border: none;
+    height: 50px;
+    width: 50px;
+    float: left;
+    border-radius: 10px;
+}
+.glyphicon-arrow-left{
+    font-size: 35px;
+    color: #04142b;
+}
+#whole{
+    background-color: #04142b;
+    height: 90%;
+    margin: 40px;
+    border-radius: 10px;
+    padding: 10px;
+}
+body{
+    background-color: #dee2e7;
+}
+#labelInput{
+    color: #15a769;
+    font-size: 30px;
+}
+#roomName{
+    height:40px;
+    font-size: 20px;
+    color: #15a769;
+}
+::placeholder {
+    color: #15a769;
+}
+#MakeRoom{
+    background-color: #15a769;
+    color: #04142b;
+    border: none;
+    font-size: 20px;
+}
+hr{
+    border-bottom:0.5px solid #15a769;
+}
+#roomsAll{
+    color: #15a769;
+    font-size: 30px;
+}

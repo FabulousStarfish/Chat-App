@@ -1,8 +1,30 @@
 <html>
     <head>
         <title>Chat App</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="chat.css">
     </head>
     <body>
-        
+        <center>
+        <div id="whole">
+        <button id="logout" onclick="logout()"><span class="glyphicon glyphicon-arrow-left"></span></button>
+        <br><br>
+        <p id="heading"></h3>
+        <div id="roomAdd">
+            <label id="labelInput">Create Room</label>
+            <br><br>
+            <input type="text" placeholder="Enter Room Name Here" id="roomName">
+            <br><br>
+            <button id="MakeRoom" onclick="room()">Make Room</button> 
+        </div>
+        <hr>
+        <label id="roomsAll">All Rooms</label>
+        <div id="allRooms"></div>
+    </center>
+</div>
     </body>
+    <script src="chat.js"></script>
 </html>
