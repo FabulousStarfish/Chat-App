@@ -1,0 +1,79 @@
+#full{
+    margin: 40px;
+
+}
+body{
+    background-color:  #dee2e7;
+}
+
+#logout{
+    background-color: #15a769;
+    border: none;
+    height: 50px;
+    width: 50px;
+    float: left;
+    border-radius: 10px;
+    margin: 20px;
+    }
+.glyphicon-arrow-left{
+    font-size: 35px;
+    color: #04142b;
+}
+#whole{
+    background-color: #04142b;
+    margin: 40px;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+}
+.glyphicon-arrow-left{
+    font-size: 35px;
+    color: #04142b;
+}
+.input_div_message_page
+{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    background: #04142b;
+    padding: 20px;
+}
+#my_input{
+    height: 45px;
+    font-size: 30px;
+    color:#15a769 ;    
+    vertical-align: middle;
+}
+::placeholder {
+    color: #15a769;
+}
+.glyphicon-send{
+    font-size: 35px;
+    color: #04142b;
+}
+#send{
+    background-color: #15a769;
+    border: none;
+    height: 45px;
+    width: 50px;
+    border-radius: 10px;
+    vertical-align: middle;
+}
+#output{
+    padding: 20px;
+    background-color: #15a769;
+    border-radius: 5px;
+}
+#heading_text{
+    margin: 5px;
+    color: #04142b;
+    font-size:60px ;
+}
+.likesButton{
+    padding: 5px;
+    font-size: 20px;
+    color: #15a769;
+    background-color: #04142b;
+    border: none;
+    border-radius: 5px;
+}

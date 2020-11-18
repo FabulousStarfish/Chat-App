@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>Chat App</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        
+        <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+
+        <link rel="stylesheet" href="page.css">
+    </head> 
+    <body>
+        <button id="logout" onclick="logout()"><span class="glyphicon glyphicon-arrow-left"></span></button>
+        <br>
+        <center>            
+            <div class="container" id="full">
+                <h1 id="heading_text"></h1>
+            <div id="output"></div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+            <div class="input_div_message_page">
+                <input placeholder="Type Message Here" id="my_input">&nbsp;&nbsp;&nbsp;
+                <button id="send" onclick="send()"><span class="glyphicon glyphicon-send"></span></button>
+            </div>
+        </center>
+    </div>
+    </body>
+    <script src="page.js"></script>
+</html>

@@ -5,6 +5,11 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+
+
 <link rel="stylesheet" type="text/css" href="chat.css">
     </head>
     <body>
@@ -12,7 +17,7 @@
         <div id="whole">
         <button id="logout" onclick="logout()"><span class="glyphicon glyphicon-arrow-left"></span></button>
         <br><br>
-        <p id="heading"></h3>
+        <label id="heading"></label>
         <div id="roomAdd">
             <label id="labelInput">Create Room</label>
             <br><br>
